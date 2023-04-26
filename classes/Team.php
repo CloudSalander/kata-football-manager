@@ -25,9 +25,9 @@ class Team {
 	}
 
 	public function __toString(): string {
-		return "Name:".$this->name.PHP_EOL;
-		e"Founded in: ".$this->foundation_year.PHP_EOL;
-		echo "Budget declared: ".$this->budget.PHP_EOL;
+		return "Name:".$this->name.PHP_EOL
+		."Founded in: ".$this->foundation_year.PHP_EOL
+		."Budget declared: ".$this->budget.PHP_EOL;
 
 	}
 
