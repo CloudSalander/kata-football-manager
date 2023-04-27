@@ -1,9 +1,9 @@
 <?php
 	enum EmployeeType {
-		COACH,
-		AUX_COACH,
-		PHYSICAL_TRAINER,
-		PSYCOLOGIST,
-		ECONOMIST
+		case COACH;
+		case AUX_COACH;
+		case PHYSICAL_TRAINER;
+		case PSYCOLOGIST;
+		case ECONOMIST;
 	}
 ?>

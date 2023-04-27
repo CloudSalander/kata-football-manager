@@ -1,9 +1,9 @@
 <?php 
 	enum Position {
-		KEEPER,
-		DEFENSE,
-		INNER,
-		FORWARD
+		case KEEPER;
+		case DEFENSE;
+		case INNER;
+		case FORWARD;
 	}
 
 ?>
